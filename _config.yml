@@ -67,7 +67,7 @@ encoding: "utf-8"
 exclude:
   - .*/
   - bin/*
-  - examples/*
+  - example-images/*
   - node_modules/*
   - tests/*
   - /*.gem
