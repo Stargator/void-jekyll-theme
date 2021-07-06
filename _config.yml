@@ -203,5 +203,4 @@ footer_links:
 # Feed Settings
 feed:
   path: /feed.xml
-  # TODO Ensure tag feed works properly
-  tag:  /feed/tag/%s.atom.xml
+  tags: true
