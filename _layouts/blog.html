@@ -11,10 +11,10 @@ layout: base
 
   {% for article in site.posts %}
     {% if article.status != 'draft' %}
-      <h2 class="article-title pull-left">
+      <h2 class="article-title center">
         <a href="{{ site.url }}{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a>
       </h2>
-      <h5 class="article-date pull-right">{{ article.date | date: "%b %d, %Y" }}</h5>
+      <h5 class="article-date center">{{ article.date | date: "%B %d, %Y" }}</h5>
       <hr class="large">
     {% endif %}
   {% endfor %}
