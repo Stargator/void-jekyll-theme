@@ -10,7 +10,7 @@ short_title: "Site Title"
 
 # Short bio or description (displayed in the header)
 description: "Lorem Ipsum something about your site and you too probably."
-timezone: America\New_York
+timezone: America/New_York
 
 # Creator settings
 creator: 'Example Author Name'
