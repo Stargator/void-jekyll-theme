@@ -5,11 +5,11 @@
 # Site settings
 # Name of your site (displayed in the header)
 name: 'Example Void Theme'
-title: "Example: What is the title of your site?"
-short_title: "Site Title"
+title: 'Example: What is the title of your site?'
+short_title: 'Site Title'
 
 # Short bio or description (displayed in the header)
-description: "Lorem Ipsum something about your site and you too probably."
+description: 'Lorem Ipsum something about your site and you too probably.'
 timezone: America/New_York
 
 # Creator settings
@@ -31,8 +31,8 @@ highlighter: coderay
 assets:
   autoprefixer:
     browsers:
-      - "last 3 versions"
-      - "IE > 9"
+      - 'last 3 versions'
+      - 'IE > 9'
   autowrite: true
   compress:
       css: true
@@ -42,10 +42,10 @@ assets:
     liquid: true
 
   assets:
-  - "*.css"
-  - "*.ico"
-  - "*.jpg"
-  - "*.png"
+  - '*.css'
+  - '*.ico'
+  - '*.jpg'
+  - '*.png'
 
   sources:
     - assets/bower
@@ -62,7 +62,7 @@ layouts_dir: ./_layouts/
 
 ## Handling Reading
 safe: false
-encoding: "utf-8"
+encoding: 'utf-8'
 # Exclude these files from your production _site
 exclude:
   - .*/
@@ -113,19 +113,19 @@ port: 4831
 
 # Your website URL (e.g. http://user.github.io)
 # Used for Sitemap.xml and your RSS feed
-url: "http://www.example.com" # the base hostname & protocol for your site
+url: 'http://www.example.com' # the base hostname & protocol for your site
 # If hosting site at a Project repository on GitHub pages
 # (http://username.github.io/repository-name)
 # and NOT the User repository (http://username.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "" # the subpath of the site, e.g. /blog/
+# then add in the baseurl here, like this: '/repository-name'
+baseurl: '' # the subpath of the site, e.g. /blog/
 
 # Front Matter Defaults
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
       author: {{ site.creator}}
 
@@ -136,7 +136,7 @@ rdiscount:
 redcarpet:
   extensions: []
 
-excerpt_separator: ""
+excerpt_separator: ''
 
 kramdown:
   auto_ids:       true
@@ -155,8 +155,8 @@ kramdown:
       css:               style
 
 # About Page Info
-about_page_header: "About Page Header"
-center_image: "assets/images/demo-from-pixabay.jpg"
+about_page_header: 'About Page Header'
+center_image: 'assets/images/demo-from-pixabay.jpg'
 
 #
 # Flags below are optional
@@ -182,15 +182,15 @@ embed_social_metadata:
 
 # TODO Includes an icon in the footer for each username you enter
 footer_links:
-#  email: "example@mail.net"
+#  email: 'example@mail.net'
 #  facebook_id:
 #  flickr_id:
 #  github_username:
 #  instagram_id:
 #  linkedin_id:
 #  pinterest_id:
-#  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-#  stackoverflow_url: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+#  rss: # just type anything here for a working RSS icon, make sure you set the 'url' above!
+#  stackoverflow_url: # your stackoverflow profile, e.g. 'users/50476/bart-kiers'
 #  twitter_username:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

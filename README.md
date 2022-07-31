@@ -42,12 +42,12 @@ Example _config.yml
 ```yaml
 # Name of your site (displayed in the header)
 name: 'Example Void Theme'
-title: "Example of Void Jekyll Theme"
-short_title: "Void"
+title: 'Example of Void Jekyll Theme'
+short_title: 'Void'
 
 # Short bio or description (displayed in the header)
-description: "Lorem Ipsum something about your site and you too probably."
-timezone: America\New_York
+description: 'Lorem Ipsum something about your site and you too probably.'
+timezone: America/New_York
 copyright_start_year: 2015
 
 # Creator settings
@@ -66,20 +66,20 @@ favicon: 'favicon.ico' # Just the filename and extension, void assumes it's in t
 theme: void-jekyll-theme
 
 ## Handling Reading
-encoding: "utf-8"
+encoding: 'utf-8'
 
 # Your website URL (e.g. http://user.github.io)
 # Used for Sitemap.xml and your RSS feed
-url: "http://www.example.com" # the base hostname & protocol for your site
+url: 'http://www.example.com' # the base hostname & protocol for your site
 # If hosting site at a Project repository on GitHub pages
 # (http://username.github.io/repository-name)
 # and NOT the User repository (http://username.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "" # The sub-path of the site, e.g. /blog/
+# then add in the baseurl here, like this: '/repository-name'
+baseurl: '' # The sub-path of the site, e.g. /blog/
 
 # About Page Info
-about_page_header: "About Page Header"
-center_image: "images/image.jpg"
+about_page_header: 'About Page Header'
+center_image: 'images/image.jpg'
 
 #
 # Flags below are optional
