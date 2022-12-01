@@ -1,8 +1,8 @@
 ---
 layout: base
 ---
-<title> {{ post.title }} | {{ site.title }}</title>
-<meta name="description" content="{{ post.description|e }}"/>
+<title> {{ page.title }} | {{ site.title }}</title>
+<meta name="description" content="{{ page.description|e }}"/>
 
 <!-- Back to blog index
 ================================================================== -->
@@ -12,8 +12,8 @@ layout: base
 <hr class="small"/>
 
 <header class="article-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-meta">
         Written on
         {{ page.date | date: "%b %-d, %Y %H:%M:%S" }}{% if page.author %} •
         {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
@@ -24,9 +24,9 @@ layout: base
 	<!-- Facebook Open Graph
   ================================================== -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ post.title }}">
-  <meta property="og:url" content="{{ site.url }}/{{ post.url }}">
-  <meta property="og:description" content="{{ post.description|e }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+  <meta property="og:description" content="{{ page.description|e }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:image" content="{{ site.url }}{{ site.logo }}">
 {% endif %}
@@ -38,18 +38,18 @@ layout: base
   <meta name="twitter:site" content="@{{ site.footer_links.twitter_username }}">
   <meta name="twitter:creator" content="@{{ site.footer_links.twitter_username }}">
   <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
-  <meta name="twitter:title" content="{{ post.title }}">
-  <meta name="twitter:description" content="{{ post.description|e }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description|e }}">
 {% endif %}
 
 <div>
 
   <!-- Article Headers
   ================================================================== -->
-  <h1 class="article-title"><a href="/{{ post.url }}" title="Permalink to {{ post.title }}">{{post.title}}</a></h1>
-  <h5 class="article-date">{{ post.date| date: "%B %d, %Y" }}
-    {% if post.tags %} | Tags: {% for tag in post.tags %}
-        <a class="tag" href="/{{ tag.url }}" rel="tag" title="Posts tagged with {{ post.tag }}">{{ tag }}</a>
+  <h1 class="article-title"><a href="/{{ page.url }}" title="Permalink to {{ page.title }}">{{page.title}}</a></h1>
+  <h5 class="article-date">{{ page.date| date: "%B %d, %Y" }}
+    {% if page.tags %} | Tags: {% for tag in page.tags %}
+        <a class="tag" href="/{{ tag.url }}" rel="tag" title="Posts tagged with {{ page.tag }}">{{ tag }}</a>
       {% endfor %}
     {% endif %}
   </h5>
@@ -58,7 +58,7 @@ layout: base
   <!-- Article Content
   ================================================================== -->
   <div class="article-content">
-    {{ post.content }}
+    {{ page.content }}
       {% include disqus.html %}
   </div>
 
@@ -79,7 +79,7 @@ layout: base
       <!-- Facebook Sharing
       ================================================================== -->
       <li><div class="fb-share-button"
-          data-href="{{ site.url }}/{{ post.url }}"
+          data-href="{{ site.url }}/{{ page.url }}"
           data-layout="button_count">
       </div></li>
       {% endif %}
