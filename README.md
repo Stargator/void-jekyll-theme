@@ -18,6 +18,9 @@ Screenshots
 ### Article
 ![Article Page](/example-images/article.png)
 
+### Blog
+![Blog Page](/example-images/blog.png)
+
 ## Usage
 1. Add it to your Gemfile:
 
