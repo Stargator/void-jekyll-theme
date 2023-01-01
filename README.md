@@ -13,10 +13,13 @@ You can see a live example of the project it's based on [here](http://www.gregre
 Screenshots
 -----------
 ### Index
-![Home Page](/examples/index.png)
+![Home Page](/example-images/index.png)
 
 ### Article
-![Article Page](/examples/article.png)
+![Article Page](/example-images/article.png)
+
+### Blog
+![Blog Page](/example-images/blog.png)
 
 ## Usage
 1. Add it to your Gemfile:
