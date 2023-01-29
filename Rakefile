@@ -5,6 +5,7 @@ require "html-proofer"
 
 task :test do
   sh "gem list -i '^html-proofer$' || gem install html-proofer"
+  sh "rm -Rf ./_site"
   sh "bundle exec jekyll build"
   options = {
       :ignore_urls => ['/getskeleton.com/'],
