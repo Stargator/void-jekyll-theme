@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'jekyll', '~> 4.2.0', :group => :production
+gem 'jekyll', '~> 4.3.0', :group => :production
 
 gem 'jekyll-sitemap', '~> 1.2', group: :jekyll_plugins
 gem 'jekyll-feed', '~> 0.11', group: :jekyll_plugins
