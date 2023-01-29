@@ -2,9 +2,9 @@
 
 void-jekyll-theme is a theme, for Jekyll. It's pretty much empty of all color. 
 void-jekyll-theme uses [Skeleton](http://www.getskeleton.com)
-and [Font Awesome](http://fontawesome.com).
+and [Font Awesome](https://fontawesome.com/).
 
-It's based on [void](http://github.com/gjreda/void) for Pelican.
+It's based on [void](https://github.com/gjreda/void) for Pelican.
 
 Since I'm reworking an existing project to use Jekyll, the configuration variables are not set in stone.
 
@@ -71,12 +71,12 @@ theme: void-jekyll-theme
 ## Handling Reading
 encoding: "utf-8"
 
-# Your website URL (e.g. http://user.github.io)
+# Your website URL (e.g. https://user.github.io)
 # Used for Sitemap.xml and your RSS feed
-url: "http://www.example.com" # the base hostname & protocol for your site
+url: "https://www.example.com" # the base hostname & protocol for your site
 # If hosting site at a Project repository on GitHub pages
-# (http://username.github.io/repository-name)
-# and NOT the User repository (http://username.github.io)
+# (https://username.github.io/repository-name)
+# and NOT the User repository (https://username.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "" # The sub-path of the site, e.g. /blog/
 
@@ -108,7 +108,7 @@ embed_social_metadata:
 ```
 
 ## Contributing
-If you are interested in contributing, you will need Ruby 2.7 installed as well as `bundler`.
+If you are interested in contributing, you will need Ruby 2.7 installed as well as `bundler` 2.2.16.
 
 I recommend that you install the dependencies into a local path: `vendor/bundle`
 
