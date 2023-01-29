@@ -11,7 +11,7 @@ task :test do
       :ignore_urls => ['/getskeleton.com/'],
       :only_4xx => true,
       :allow_hash_href => true,
-#      :assume_extension => true, # error
+#      :assume_extension => true, # error on html-proofer's part
       :check_opengraph => true,
       :check_favicon => true,
       :trace => true,
