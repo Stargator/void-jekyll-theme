@@ -108,7 +108,7 @@ embed_social_metadata:
 ```
 
 ## Contributing
-If you are interested in contributing, you will need Ruby 2.7 installed as well as `bundler`.
+If you are interested in contributing, you will need Ruby 2.7 installed as well as `bundler` 2.2.16.
 
 I recommend that you install the dependencies into a local path: `vendor/bundle`
 
