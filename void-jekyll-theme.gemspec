@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   # end
 
   spec.require_paths = ["_includes, _layouts, assets, blog, favicon.ico"]
-  spec.required_ruby_version = [">= 3.0", "< 4.0"]
+  spec.required_ruby_version = [">= 3.1", "< 4.0"]
 
   spec.metadata = {
     "plugin_type" => "theme",
