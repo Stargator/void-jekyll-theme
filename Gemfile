@@ -8,7 +8,9 @@ gem 'jekyll-feed', '~> 0.11', group: :jekyll_plugins
 #gem 'autoprefixer-rails', '~>  10.2'
 #gem 'uglifier', '~> 4.1'
 
-gem 'html-proofer', '~> 4', :group => :development
-gem 'rake', '~> 13.0', :group => :development
+# Transitive dependencies
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
 
 gemspec

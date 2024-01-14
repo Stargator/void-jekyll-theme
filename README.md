@@ -108,9 +108,9 @@ embed_social_metadata:
 ```
 
 ## Contributing
-If you are interested in contributing, you will need Ruby 2.7 installed as well as `bundler` 2.2.16.
+If you are interested in contributing, you will need at least Ruby 3.1 installed.
 
-I recommend that you install the dependencies into a local path: `vendor/bundle`
+It is recommended to install the dependencies into a local path: `vendor/bundle`
 
 To do so run this command: ```bundle config set path 'vendor/bundle'```. Before running `bundle install`.
 
