@@ -18,11 +18,14 @@ GEM
       fiber-annotation
       io-event (~> 1.1)
       timers (~> 4.1)
+    base64 (0.2.0)
+    bigdecimal (3.1.5)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     console (1.23.3)
       fiber-annotation
       fiber-local
+    csv (3.2.8)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -122,6 +125,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   html-proofer (~> 5)
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.11)
