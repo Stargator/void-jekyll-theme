@@ -7,20 +7,27 @@ on:
     # The branches below must be a subset of the branches above
     branches: [develop]
     paths-ignore:
+      - '.bundle'
+      - '.github'
       - '.gitignore'
+      - '.jekyll-cache'
       - '.ruby-version'
+      - '_config.yml'
       - 'Gemfile*'
       - 'LICENSE'
       - 'Rakefile'
       - '*.gemspec'
+      - '*.ico'
       - '*.md'
       - '*.txt'
       - '*.yml'
-      - '_*/'
+      - '_drafts/'
+      - '_includes/'
       - 'blog/'
-      - 'examples/'
+      - 'example-images/'
       - 'assets/css/'
       - 'assets/images/'
+      - 'vendor/'
   schedule:
     - cron: '0 23 * * 5'
 
