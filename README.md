@@ -112,6 +112,8 @@ If you are interested in contributing, you will need at least Ruby 3.1 installed
 
 It is recommended to install the dependencies into a local path: `vendor/bundle`
 
-To do so run this command: ```bundle config set path 'vendor/bundle'```. Before running `bundle install`.
+To do so run this command: `bundle config set path 'vendor/bundle'`. Before running `bundle install`.
+
+To update the version of bundler, run `bundler update --bundler --patch --strict --conservative`
 
 Improvements can include security fixes for any JavaScript issues, new features, formatting, typos, as wells as updates to documentation.
